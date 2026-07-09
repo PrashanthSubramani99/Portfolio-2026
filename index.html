@@ -4,8 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Prashanth Subramani - Full Stack Developer | React.js, Next.js, Node.js" />
+  <meta name="description"
+    content="Prashanth Subramani - Full Stack Developer | MERN Stack | React.js, Node.js, MySQL, GenAI & RAG" />
   <title>Prashanth Subramani | Full Stack Developer</title>
+
+  <!-- Social sharing (Open Graph / Twitter) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portfolio-2026-eosin-pi.vercel.app/" />
+  <meta property="og:title" content="Prashanth Subramani | Full Stack Developer" />
+  <meta property="og:description"
+    content="Full Stack Developer with 5 years of experience building multi-tenant SaaS platforms end-to-end — React, Node.js, MySQL, and GenAI (RAG chatbot with LangChain + RedisVL)." />
+  <meta property="og:image" content="https://portfolio-2026-eosin-pi.vercel.app/1705923774112.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Prashanth Subramani | Full Stack Developer" />
+  <meta name="twitter:description"
+    content="Full Stack Developer with 5 years of experience building multi-tenant SaaS platforms end-to-end — React, Node.js, MySQL, and GenAI." />
+  <meta name="twitter:image" content="https://portfolio-2026-eosin-pi.vercel.app/1705923774112.jpeg" />
+
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%237c3aed'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='900' fill='white' text-anchor='middle'%3EPS%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -1762,16 +1779,17 @@
     <div class="container">
       <div class="nav-inner">
         <a class="nav-logo" href="#hero" onclick="smoothScrollTo('hero');return false;">
-          <!-- <div class="nav-logo-icon">PS</div>
-        <span>Prashanth Subramani<em>.</em></span> -->
+          <div class="nav-logo-icon">PS</div>
+          <span>Prashanth Subramani<em>.</em></span>
         </a>
         <div class="nav-links" id="nav-links">
           <a href="#about" onclick="smoothScrollTo('about');return false;">About</a>
           <a href="#skills" onclick="smoothScrollTo('skills');return false;">Skills</a>
           <a href="#experience" onclick="smoothScrollTo('experience');return false;">Experience</a>
+          <a href="#projects" onclick="smoothScrollTo('projects');return false;">Projects</a>
           <a href="#achievements" onclick="smoothScrollTo('achievements');return false;">Achievements</a>
           <a href="#contact" onclick="smoothScrollTo('contact');return false;">Contact</a>
-          <a href="mailto:sprashanth1699@gmail.com" class="nav-hire">Hire Me</a>
+          <a href="mailto:prashanth90807@gmail.com" class="nav-hire">Hire Me</a>
         </div>
         <button class="hamburger" id="hamburger" aria-label="Menu">
           <span></span><span></span><span></span>
@@ -1782,9 +1800,10 @@
       <a href="#about" onclick="smoothScrollTo('about');closeMobile();return false;">About</a>
       <a href="#skills" onclick="smoothScrollTo('skills');closeMobile();return false;">Skills</a>
       <a href="#experience" onclick="smoothScrollTo('experience');closeMobile();return false;">Experience</a>
+      <a href="#projects" onclick="smoothScrollTo('projects');closeMobile();return false;">Projects</a>
       <a href="#achievements" onclick="smoothScrollTo('achievements');closeMobile();return false;">Achievements</a>
       <a href="#contact" onclick="smoothScrollTo('contact');closeMobile();return false;">Contact</a>
-      <a href="mailto:sprashanth1699@gmail.com" style="color:#a5b4fc;font-weight:700;">✉ Hire Me</a>
+      <a href="mailto:prashanth90807@gmail.com" style="color:#a5b4fc;font-weight:700;">✉ Hire Me</a>
     </div>
   </nav>
 
@@ -1817,14 +1836,15 @@
           </div>
 
           <p class="hero-desc reveal delay-3">
-            Building <strong style="color:#a5b4fc;">scalable, secure & performant</strong>
-            web applications. Specializing in React.js, Next.js, Node.js, and AI-integrated Saas/Paas application
-            development with 3+ years of production experience.
+            Building <strong style="color:#a5b4fc;">multi-tenant SaaS platforms</strong> end-to-end.
+            Shipped an HRMS/Payroll product used by 25+ client companies and 10,000+ employees.
+            Specializing in React, Node.js, MySQL, and GenAI features — including a production
+            RAG chatbot built with LangChain and RedisVL — with 5 years of production experience.
           </p>
 
           <!-- <div class="hero-meta reveal delay-3">
           <span><i class="fas fa-map-marker-alt"></i> Chennai, TN</span>
-          <span><i class="fas fa-envelope"></i> sprashanth1699@gmail.com</span>
+          <span><i class="fas fa-envelope"></i> prashanth90807@gmail.com</span>
           <span><i class="fas fa-phone"></i> 9042105683</span>
         </div> -->
 
@@ -1835,7 +1855,7 @@
             <a href="#experience" onclick="smoothScrollTo('experience');return false;" class="btn btn-outline">
               <i class="fas fa-briefcase"></i> View Experience
             </a>
-            <a href="resume.pdf" class="btn btn-ghost" download="My_Resume.pdf" target="_blank">
+            <a href="resume.pdf" class="btn btn-ghost" download="Prashanth_Subramani_Resume.pdf" target="_blank">
               <i class="fas fa-download"></i> Resume
             </a>
           </div>
@@ -1845,7 +1865,7 @@
               title="GitHub"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/prashanth1699" target="_blank" rel="noopener" class="social-btn"
               title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:sprashanth1699@gmail.com" class="social-btn" title="Email"><i
+            <a href="mailto:prashanth90807@gmail.com" class="social-btn" title="Email"><i
                 class="fas fa-envelope"></i></a>
           </div>
         </div>
@@ -1862,7 +1882,7 @@
               </div>
               <div>
                 <h3>Prashanth Subramani</h3>
-                <p>Full Stack Developer</p>
+                <p>Full Stack Engineer</p>
                 <small>4i Apps Solutions Pvt Ltd</small>
               </div>
             </div>
@@ -1880,13 +1900,14 @@
                 class="nm">{</span><br>
               <span class="ind"><span class="bl">name</span><span class="op">:</span> <span class="st">"Prashanth
                   Subramani"</span><span class="op">,</span></span>
-              <span class="ind"><span class="bl">experience</span><span class="op">:</span> <span class="nm">"3+
+              <span class="ind"><span class="bl">experience</span><span class="op">:</span> <span class="nm">"5
                   years"</span><span class="op">,</span></span>
               <span class="ind"><span class="bl">stack</span><span class="op">:</span> [<span
-                  class="st">"React"</span><span class="op">,</span> <span class="st">"Next.js"</span><span
-                  class="op">,</span> <span class="st">"Node"</span>]<span class="op">,</span></span>
-              <span class="ind"><span class="bl">uptime</span><span class="op">:</span> <span
-                  class="nm">"99.9%"</span><span class="op">,</span></span>
+                  class="st">"React"</span><span class="op">,</span> <span class="st">"Node"</span><span
+                  class="op">,</span> <span class="st">"MySQL"</span>]<span class="op">,</span></span>
+              <span class="ind"><span class="bl">genAI</span><span class="op">:</span> [<span
+                  class="st">"RAG"</span><span class="op">,</span> <span class="st">"LangChain"</span>]<span
+                  class="op">,</span></span>
               <span class="ind"><span class="bl">openToWork</span><span class="op">:</span> <span
                   class="kw">true</span></span>
               <span class="nm">}</span>
@@ -1897,23 +1918,23 @@
           <div class="stats-grid reveal delay-3">
             <div class="stat-card glass-card">
               <div class="stat-icon">📅</div>
-              <div class="stat-val">3+</div>
+              <div class="stat-val">5</div>
               <div class="stat-lbl">Years Experience</div>
             </div>
             <div class="stat-card glass-card">
-              <div class="stat-icon">⚡</div>
-              <div class="stat-val">99.9%</div>
-              <div class="stat-lbl">System Uptime</div>
+              <div class="stat-icon">🏢</div>
+              <div class="stat-val">25+</div>
+              <div class="stat-lbl">Client Companies</div>
             </div>
             <div class="stat-card glass-card">
-              <div class="stat-icon">📉</div>
-              <div class="stat-val">30%</div>
-              <div class="stat-lbl">Dev Overhead Cut</div>
+              <div class="stat-icon">👥</div>
+              <div class="stat-val">10K+</div>
+              <div class="stat-lbl">Employees Served</div>
             </div>
             <div class="stat-card glass-card">
-              <div class="stat-icon">👨‍🏫</div>
-              <div class="stat-val">10+</div>
-              <div class="stat-lbl">Students Mentored</div>
+              <div class="stat-icon">🚀</div>
+              <div class="stat-val">33+</div>
+              <div class="stat-lbl">Modules Shipped</div>
             </div>
           </div>
         </div>
@@ -1941,10 +1962,12 @@
         <!-- Left -->
         <div class="reveal from-left">
           <p class="about-text">
-            Full Stack Developer with 3+ years of experience building scalable web applications using React.js,
-            Next.js, Node.js, and MySQL. Experienced in enterprise software development, application development,
-            product development, SaaS/PaaS, dynamic forms, and data-driven UI components. Adept at collaborating with
-            cross-functional teams and delivering high-performance, maintainable solutions.
+            Full Stack Developer with 5 years of experience building multi-tenant SaaS platforms end-to-end.
+            Shipped an HRMS/Payroll product (Paydaysuite) used by 25+ client companies and 10,000+ employees
+            in the UAE, with schema-per-tenant data isolation. Core strengths are React, Node.js, and MySQL.
+            I've also extended production systems with GenAI features, including a RAG chatbot built using
+            LangChain, RedisVL, and LLM models, and built MCP servers that expose platform data for
+            LLM-driven workflows.
           </p>
 
           <div class="edu-card card">
@@ -1959,6 +1982,7 @@
               <span><i class="fas fa-map-marker-alt"></i> Cuddalore, Tamil Nadu</span>
               <span><i class="fas fa-calendar-alt"></i> 2017 – 2021</span>
               <span><i class="fas fa-award" style="color:var(--primary-2);"></i> GUVI MERN Certified</span>
+              <span><i class="fas fa-award" style="color:var(--primary-2);"></i> AWS AI Practitioner (Udacity)</span>
             </div>
           </div>
         </div>
@@ -1980,23 +2004,23 @@
             </div>
             <div class="highlight-card card">
               <div class="hi-icon">🏗️</div>
-              <h4>Micro-frontends</h4>
-              <p>System Architect</p>
+              <h4>Multi-tenant SaaS</h4>
+              <p>Schema-per-tenant</p>
             </div>
             <div class="highlight-card card">
               <div class="hi-icon">🤖</div>
-              <h4>AI & MCP Tools</h4>
-              <p>AI Integrations</p>
+              <h4>GenAI / RAG</h4>
+              <p>LangChain · RedisVL</p>
             </div>
             <div class="highlight-card card">
               <div class="hi-icon">🔐</div>
-              <h4>OAuth / RBAC</h4>
+              <h4>JWT / RBAC</h4>
               <p>Security Layer</p>
             </div>
             <div class="highlight-card card">
               <div class="hi-icon">☁️</div>
-              <h4>AWS / Docker</h4>
-              <p>DevOps Aware</p>
+              <h4>AWS / CI-CD</h4>
+              <p>Lambda · S3 · Docker</p>
             </div>
           </div>
         </div>
@@ -2045,6 +2069,22 @@
   </section>
 
   <!-- ══════════════════════════════
+     PROJECTS
+══════════════════════════════ -->
+  <section id="projects" style="padding:100px 0;position:relative;">
+    <div class="container">
+      <div class="reveal" style="text-align:center;margin-bottom:3.5rem;">
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="ach-grid" id="projects-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
      ACHIEVEMENTS
 ══════════════════════════════ -->
   <section id="achievements">
@@ -2080,11 +2120,11 @@
         <!-- Left -->
         <div class="reveal from-left">
           <div class="contact-info-list">
-            <a href="mailto:sprashanth1699@gmail.com" class="contact-info-item">
+            <a href="mailto:prashanth90807@gmail.com" class="contact-info-item">
               <div class="ci-icon"><i class="fas fa-envelope"></i></div>
               <div>
                 <div class="ci-label">Email</div>
-                <div class="ci-value">sprashanth1699@gmail.com</div>
+                <div class="ci-value">prashanth90807@gmail.com</div>
               </div>
             </a>
             <!-- <a href="tel:+919042105683" class="contact-info-item">
@@ -2107,7 +2147,7 @@
               title="GitHub"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/prashanth1699" target="_blank" rel="noopener"
               class="contact-social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:sprashanth1699@gmail.com" class="contact-social-btn" title="Email"><i
+            <a href="mailto:prashanth90807@gmail.com" class="contact-social-btn" title="Email"><i
                 class="fas fa-envelope"></i></a>
           </div>
         </div>
@@ -2164,6 +2204,7 @@
             <a href="#about" onclick="smoothScrollTo('about');return false;">About</a>
             <a href="#skills" onclick="smoothScrollTo('skills');return false;">Skills</a>
             <a href="#experience" onclick="smoothScrollTo('experience');return false;">Experience</a>
+            <a href="#projects" onclick="smoothScrollTo('projects');return false;">Projects</a>
             <a href="#achievements" onclick="smoothScrollTo('achievements');return false;">Achievements</a>
             <a href="#contact" onclick="smoothScrollTo('contact');return false;">Contact</a>
           </div>
@@ -2172,7 +2213,7 @@
                 class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/prashanth1699" target="_blank" rel="noopener" class="footer-social"><i
                 class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:sprashanth1699@gmail.com" class="footer-social"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:prashanth90807@gmail.com" class="footer-social"><i class="fas fa-envelope"></i></a>
           </div>
         </div>
         <div class="footer-divider"></div>
@@ -2201,119 +2242,131 @@
     ═══════════════════════════════════════════ */
     const SKILLS_DATA = [
       {
-        category: 'Frontend', color: '#61DAFB', icon: '⚛️',
-        items: ['React.js', 'Next.js', 'TypeScript', 'JavaScript (ES6+)']
+        category: 'Languages', color: '#FBD38D', icon: '📝',
+        items: ['JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'SQL']
       },
       {
-        category: 'UI / UX', color: '#FF6B6B', icon: '🎨',
-        items: ['MUI', 'ShadCN', 'Bootstrap', 'HTML / CSS']
+        category: 'Frontend', color: '#61DAFB', icon: '⚛️',
+        items: ['React.js', 'Next.js', 'Vite', 'Bootstrap', 'React Hook Form', 'TanStack Query', 'Redux', 'Micro Frontend']
       },
       {
         category: 'Backend', color: '#68D391', icon: '🛠️',
-        items: ['Node.js', 'Express.js', 'REST APIs', 'Sequelize ORM', 'JWT', 'OAuth', 'NextAuth']
+        items: ['Node.js', 'Express.js', 'REST API Development', 'JWT Authentication', 'RBAC', 'Sequelize ORM']
       },
       {
-        category: 'Database', color: '#F6AD55', icon: '🗄️',
-        items: ['MySQL', 'Indexing', 'Query Optimization']
+        category: 'Databases', color: '#F6AD55', icon: '🗄️',
+        items: ['MySQL', 'Redis', 'Redis Vector Library (RedisVL)', 'Indexing & Query Optimization']
       },
       {
-        category: 'State Management', color: '#9F7AEA', icon: '🔄',
-        items: ['Redux Toolkit (RTK)', 'Context API', 'TanStack Query']
+        category: 'AI / GenAI', color: '#FC8181', icon: '🤖',
+        items: ['LangChain', 'LLM Models', 'RAG', 'Recursive Text Chunking', 'Vector Embeddings', 'AI Chatbot Development', 'Prompt Engineering', 'Amazon Bedrock', 'AWS SageMaker', 'MCP Servers']
       },
       {
-        category: 'System Design', color: '#63B3ED', icon: '🏗️',
-        items: ['Microservices Architecture', 'Micro-frontends', 'Scalable System Design']
+        category: 'Cloud & DevOps', color: '#F687B3', icon: '☁️',
+        items: ['AWS S3', 'AWS Lambda', 'Docker', 'Git', 'GitHub', 'CI/CD']
       },
       {
-        category: 'AI & LLM', color: '#FC8181', icon: '🤖',
-        items: ['AI Agents', 'AI-driven software delivery', 'MCP Connectors']
+        category: 'Product & Planning', color: '#63B3ED', icon: '📋',
+        items: ['LLD / PRD / FRD Documentation', 'ERD-based Sprint Planning', 'DB Schema Design (DBdraw)', 'Notion', 'Google LM']
       },
       {
-        category: 'DevOps', color: '#F687B3', icon: '☁️',
-        items: ['AWS (S3, EC2)', 'Docker', 'Vercel', 'Linux Ubuntu', 'SonarQube', 'Husky']
+        category: 'Engineering Practices', color: '#9F7AEA', icon: '🤝',
+        items: ['Peer Review', 'Code Review', 'Agile Scrum']
       },
       {
         category: 'Tools', color: '#76E4F7', icon: '🧰',
-        items: ['GitHub', 'Figma', 'Postman', 'JIRA', 'Agile / Scrum']
-      },
-      {
-        category: 'Security', color: '#FBD38D', icon: '🔐',
-        items: ['Data Encryption', 'RBAC', 'Zod']
+        items: ['VS Code', 'Postman', 'Figma', 'Claude MCP', 'ChatGPT', 'Jira', 'npm', 'pnpm']
       },
     ];
 
     const EXPERIENCE_DATA = [
       {
-        id: 1, company: '4i Apps Solutions Pvt Ltd',
-        role: 'Full Stack Developer',
+        id: 1, company: '4i Apps Solutions Pvt Ltd', link: 'https://www.4iapps.com/',
+        role: 'Full Stack Engineer',
         period: 'Aug 2024 – Present', location: 'Chennai, TN', type: 'Full-time',
         bullets: [
-          'Took full ownership of transforming business needs into production-ready features via Micro-frontend architecture and TanStack Query, reducing technical debt and improving developer velocity.',
-          'Engineered a robust security layer using OAuth/NextAuth and granular RBAC, enabling dynamic UI rendering of sidebars and action buttons based on user permissions.',
-          'Strengthened application backbone by offloading heavy data processing to background Jobs/Queues and integrated AWS S3 for scalable media storage, maintaining 99.9% system uptime during peak loads.',
-          'Promoted a culture of reliability by synchronizing frontend/backend via Zod and TypeScript. Led peer code reviews and utilized MUI to ensure interface consistency and accessibility.',
-          'Standardized API & Technical Documentation implementing Swagger for backend services to streamline cross-team collaboration.',
-          'Developed a robust library of centralized utility functions, reducing code duplication and simplifying long-term maintenance.',
-          'Enhanced data privacy by implementing URL parameter and Payload encryption for sensitive API communication.',
+          'Architected schema-per-tenant multi-tenancy for Paydaysuite (25+ client companies, 10,000+ employees), isolating each client\'s data at the schema level on a shared MySQL server, and designed the secure REST APIs (Node.js, Express.js, TypeScript, Sequelize) on top.',
+          'Optimized platform performance: reduced payroll processing time from 30–60 minutes to under 5 minutes using indexed queries and AWS Lambda, and cut high-traffic API response times from 4–5 seconds to low milliseconds with Redis caching.',
+          'Delivered Attendance, Timesheet, and Absence Management modules, expanding the product suite to 15+ modules total.',
+          'Built a production RAG chatbot that lets users get instant answers from uploaded PDF documents, as a self-directed GenAI initiative alongside core platform work.',
+          'Built MCP servers on top of existing REST APIs, exposing platform data and actions for LLM-driven workflows and integrations.',
+          'Cut deployment time from 45 minutes to under 5 minutes by moving manual releases to AWS-based CI/CD pipelines.',
+          'Directed planning and delivery for the Attendance and Timesheet modules: authored LLD, PRD, and FRD documentation in Notion, designed DB schemas via DBdraw, ran ERD-based sprint planning, and led a team of 4 developers through a completed release cycle.',
         ],
-        tags: ['React.js', 'Next.js', 'TypeScript', 'Micro-frontends', 'TanStack Query', 'OAuth', 'RBAC', 'AWS S3', 'MUI', 'Zod', 'Node.js', 'MySQL'],
+        tags: ['React', 'TypeScript', 'Node.js', 'Express.js', 'Sequelize', 'MySQL', 'Redis', 'LangChain', 'RedisVL', 'AWS Lambda', 'AWS S3', 'CI/CD', 'MCP'],
       },
-      // {
-      //   id: 2, company: 'Asys Technologies',
-      //   role: 'Full Stack Developer',
-      //   period: 'Nov 2022 – Jul 2024', location: 'Remote, Mexico', type: 'Contract – International',
-      //   bullets: [
-      //     'Spearheaded the design and deployment of production-ready SaaS solutions using React.js, Node.js, and MySQL, maintaining 99% uptime.',
-      //     'Engineered robust Desktop Applications to provide users with a native experience, optimizing local resource usage.',
-      //     'Implemented low-latency, bidirectional communication using WebSockets, enabling real-time data updates for live dashboard modules.',
-      //     'Developed a comprehensive library of dynamic forms and reusable UI components, reducing development overhead by 30%.',
-      //     'Optimized complex API integrations and database queries using execution plan analysis and strategic indexing.',
-      //   ],
-      //   tags: ['React.js', 'Node.js', 'MySQL', 'SaaS', 'WebSockets', 'REST APIs', 'Dynamic Forms', 'Sequelize ORM'],
-      // },
       {
-        id: 3, company: "Hema's Enterprises Pvt Ltd",
-        role: 'Software Trainee',
-        period: 'Sept 2021 – Nov 2022', location: 'Cuddalore, TN', type: 'Full-time',
+        id: 2, company: 'Asys Technology',
+        role: 'Senior Developer',
+        period: 'Dec 2022 – Jul 2024', location: 'Remote — Mexico City, Mexico', type: 'Freelance',
         bullets: [
-          'Designed modular Payroll UI systems with complex hierarchical navigation, improving application scalability.',
-          'Mastered JavaScript (ES6+) and React fundamentals to build interactive, data-driven frontend components.',
-          'Collaborated on Software Coding standards and UI optimization, significantly reducing initial page load times.',
+          'Owned full-stack architecture for Unico, a production business-management SaaS platform, from design through live payment processing.',
+          'Shipped 18 functional modules (Residents, Suppliers, Transactions, and Payments) using React.js, Vite.js, TypeScript, Node.js, Express.js, and MySQL.',
+          'Integrated PayPal, Mercado Pago, and UPI, supporting an estimated 100+ secure transactions monthly in production.',
+          'Secured all 18 modules with JWT, OAuth 2.0, and RBAC access control.',
+          'Accelerated high-traffic views through lazy loading, code-splitting, and TanStack Query caching.',
+          'Tracked and triaged post-deployment QA bugs in Jira across releases, coordinating fixes to keep production issues resolved quickly.',
         ],
-        tags: ['React.js', 'JavaScript (ES6+)', 'HTML/CSS', 'Payroll UI', 'Frontend'],
+        tags: ['React.js', 'Vite.js', 'TypeScript', 'Node.js', 'Express.js', 'MySQL', 'PayPal', 'Mercado Pago', 'UPI', 'JWT', 'OAuth 2.0', 'RBAC', 'TanStack Query'],
+      },
+      {
+        id: 3, company: 'HEPL – A Cavinkare Group Company',
+        role: 'Software Trainee',
+        period: 'Sep 2021 – Nov 2022', location: 'Cuddalore, TN', type: 'Full-time',
+        bullets: [
+          'Engineered a dynamic GPRS tracking system, enabling real-time vehicle monitoring for a dairy logistics client.',
+          'Digitized manual Excel workflows into a secure web application with comprehensive data validation, eliminating paper-based tracking.',
+          'Applied Agile Scrum methodology across the full Software Development Life Cycle (SDLC) to support enterprise application delivery.',
+          'Supported production fixes across HTML5, CSS3, Bootstrap, React.js, TypeScript, Node.js, Express.js, MySQL, REST APIs, and RBAC.',
+        ],
+        tags: ['React.js', 'TypeScript', 'Node.js', 'Express.js', 'MySQL', 'Bootstrap', 'REST APIs', 'RBAC', 'Agile Scrum'],
       },
     ];
 
     const ACHIEVEMENTS_DATA = [
-      { icon: '🏆', title: 'MERN Stack Certified', desc: 'Guvi Certified MERN Stack Developer with proven expertise in MongoDB, Express, React, and Node.js.' },
-      { icon: '👨‍🏫', title: 'Mentor & Educator', desc: 'Mentored 10+ students and led technical discussion sessions on JavaScript, React, and Node.js.' },
-      { icon: '🤖', title: 'AI Early Adopter', desc: 'Early adopter of AI-assisted workflows, integrating MCP tools and Figma connectors to improve delivery speed.' },
-      { icon: '⚡', title: '99.9% System Uptime', desc: 'Maintained 99.9% system uptime during peak loads by implementing scalable background jobs and AWS S3 storage.' },
-      { icon: '📉', title: '30% Dev Overhead Reduction', desc: 'Reduced development overhead by 30% through modular dynamic forms and reusable UI component libraries.' },
-      { icon: '📚', title: 'Documentation Champion', desc: 'Led a documentation-first workflow with Swagger API docs and comprehensive technical guides.' },
+      { icon: '⚡', title: 'Payroll 10× Faster', desc: 'Reduced payroll processing time from 30–60 minutes to under 5 minutes using indexed queries and AWS Lambda functions.' },
+      { icon: '🏢', title: 'Multi-tenant at Scale', desc: 'Architected schema-per-tenant multi-tenancy serving 25+ client companies and 10,000+ employees on a shared MySQL server.' },
+      { icon: '🤖', title: 'Production RAG Chatbot', desc: 'Built a production RAG chatbot with LangChain, RedisVL, and NVIDIA NIM that answers questions directly from uploaded PDF documents.' },
+      { icon: '🚀', title: 'Deployments in Minutes', desc: 'Cut deployment time from 45 minutes to under 5 minutes by moving manual releases to AWS-based CI/CD pipelines.' },
+      { icon: '👨‍💻', title: 'Led a Team of 4', desc: 'Directed planning and delivery of Attendance & Timesheet modules — LLD/PRD/FRD docs, ERD-based sprint planning, and a completed release cycle.' },
+      { icon: '🏆', title: 'Certified', desc: 'AWS AI Practitioner Challenge (Udacity) — Bedrock, SageMaker, prompt engineering — and HCL GUVI MERN Stack Development.', link: 'https://www.linkedin.com/in/prashanth1699/details/certifications/', linkLabel: 'View credentials' },
+    ];
+
+    const PROJECTS_DATA = [
+      {
+        icon: '🤖', title: 'AI RAG Chatbot', status: 'Production',
+        desc: 'Chatbot that answers questions directly from uploaded PDF documents using Retrieval-Augmented Generation — PDF ingestion, recursive text chunking, vector embeddings, semantic search, and AI-powered responses.',
+        tags: ['React', 'Node.js', 'LangChain', 'NVIDIA NIM', 'RedisVL', 'Redis', 'Vector Embeddings'],
+        link: 'https://frontend-eosin-eta-90.vercel.app/', linkLabel: 'Live Demo', linkIcon: 'fas fa-external-link-alt',
+      },
+      {
+        icon: '🏢', title: 'Paydaysuite', status: 'Production',
+        desc: 'Multi-tenant HRMS and payroll SaaS platform serving 25+ client companies and 10,000+ employees, with schema-per-tenant data isolation. Modules include Camp Management, Employee Allocation, Reservations, Maintenance, and RBAC.',
+        tags: ['React', 'TypeScript', 'Node.js', 'Express', 'MySQL', 'JWT', 'AWS S3', 'AWS Lambda'],
+        link: 'https://paydaysuite.com/', linkLabel: 'Live Site', linkIcon: 'fas fa-external-link-alt',
+      },
+      {
+        icon: '💼', title: 'Unico', status: 'Production',
+        desc: 'Business-management SaaS platform for a Mexico-based client covering resident, supplier, transaction, and payment operations — PayPal, Mercado Pago, and UPI integration with JWT/OAuth2/RBAC security.',
+        tags: ['React.js', 'Vite.js', 'TypeScript', 'Node.js', 'Express.js', 'MySQL', 'TanStack Query'],
+        link: 'https://www.youtube.com/watch?v=siu5LN-kJsI', linkLabel: 'Video Walkthrough', linkIcon: 'fab fa-youtube',
+      },
     ];
 
     /* ═══════════════════════════════════════════
        MOCK AXIOS-STYLE API
     ═══════════════════════════════════════════ */
     const mockAxios = {
-      _delay(ms) { return new Promise(r => setTimeout(r, ms + Math.random() * 300)); },
       async get(endpoint) {
-        await this._delay(500);
         const map = {
           '/api/skills': SKILLS_DATA,
           '/api/experience': EXPERIENCE_DATA,
           '/api/achievements': ACHIEVEMENTS_DATA,
+          '/api/projects': PROJECTS_DATA,
         };
         if (map[endpoint]) return { data: { data: map[endpoint], status: 'success' } };
         throw new Error('Not found');
       },
-      async post(endpoint, body) {
-        await this._delay(1100);
-        if (Math.random() < 0.08) throw new Error('Server error. Please try again.');
-        console.log('📧 Form submitted:', body);
-        return { data: { status: 'success', message: "Message sent! I'll get back to you soon. 🚀" } };
-      }
     };
 
     /* ═══════════════════════════════════════════
@@ -2352,7 +2405,7 @@
     window.closeMobile = closeMobile;
 
     function updateActiveNav() {
-      const sections = ['about', 'skills', 'experience', 'achievements', 'contact'];
+      const sections = ['about', 'skills', 'experience', 'projects', 'achievements', 'contact'];
       let current = '';
       sections.forEach(id => {
         const el = document.getElementById(id);
@@ -2415,10 +2468,10 @@
     (function initTyping() {
       const ROLES = [
         'Full Stack Developer',
-        'React.js Expert',
+        'MERN Stack Developer',
+        'Multi-tenant SaaS Builder',
+        'GenAI / RAG Engineer',
         'Node.js Engineer',
-        'AI & LLM Enthusiast',
-        'Micro-frontend Architect',
       ];
       const el = document.getElementById('typing-text');
       let ri = 0, ci = 0, deleting = false;
@@ -2543,7 +2596,7 @@
             <h3>${exp.role}</h3>
             <div class="exp-company">
               <span>${exp.company}</span>
-              <a href="#" title="View"><i class="fas fa-external-link-alt"></i></a>
+              ${exp.link ? `<a href="${exp.link}" target="_blank" rel="noopener" title="Visit ${exp.company}" onclick="event.stopPropagation();"><i class="fas fa-external-link-alt"></i></a>` : ''}
             </div>
           </div>
           <span class="exp-type">${exp.type}</span>
@@ -2595,7 +2648,8 @@
           card.innerHTML = `
         <span class="ach-icon">${a.icon}</span>
         <h3>${a.title}</h3>
-        <p>${a.desc}</p>`;
+        <p>${a.desc}</p>
+        ${a.link ? `<a href="${a.link}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;margin-top:.9rem;font-size:.8rem;font-weight:600;color:var(--primary-2);text-decoration:none;">${a.linkLabel} <i class="fas fa-arrow-right" style="font-size:.7rem;"></i></a>` : ''}`;
           grid.appendChild(card);
         });
 
@@ -2605,6 +2659,48 @@
         grid.querySelectorAll('.reveal').forEach(el => io.observe(el));
       } catch (e) {
         grid.innerHTML = `<p style="color:var(--text-3);grid-column:1/-1;text-align:center;">Failed to load achievements.</p>`;
+      }
+    }
+
+    /* ═══════════════════════════════════════════
+       RENDER PROJECTS
+    ═══════════════════════════════════════════ */
+    async function renderProjects() {
+      const grid = document.getElementById('projects-grid');
+      grid.innerHTML = Array(3).fill(0).map(() =>
+        `<div class="card" style="height:200px;background:linear-gradient(90deg,rgba(255,255,255,.02) 25%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.02) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;"></div>`
+      ).join('');
+
+      try {
+        const res = await mockAxios.get('/api/projects');
+        const projects = res.data.data;
+        grid.innerHTML = '';
+
+        projects.forEach((p, i) => {
+          const card = document.createElement('div');
+          card.className = 'ach-card card reveal';
+          card.style.transitionDelay = `${i * 0.08}s`;
+          card.innerHTML = `
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+          <span class="ach-icon" style="margin-bottom:0;">${p.icon}</span>
+          <span class="exp-type">${p.status}</span>
+        </div>
+        <h3>${p.title}</h3>
+        <p style="margin-bottom:1rem;">${p.desc}</p>
+        <div class="exp-tags" style="margin-bottom:1.1rem;">${p.tags.map(t => tagHTML(t, '#06b6d4')).join('')}</div>
+        <a href="${p.link}" target="_blank" rel="noopener" class="btn btn-outline"
+          style="font-size:.78rem;padding:.5rem 1rem;">
+          <i class="${p.linkIcon}"></i> ${p.linkLabel}
+        </a>`;
+          grid.appendChild(card);
+        });
+
+        const io = new IntersectionObserver(entries => {
+          entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+        }, { threshold: .1 });
+        grid.querySelectorAll('.reveal').forEach(el => io.observe(el));
+      } catch (e) {
+        grid.innerHTML = `<p style="color:var(--text-3);grid-column:1/-1;text-align:center;">Failed to load projects.</p>`;
       }
     }
 
@@ -2715,15 +2811,23 @@
           const payload = {
             name: document.getElementById('f-name').value.trim(),
             email: document.getElementById('f-email').value.trim(),
-            subject: document.getElementById('f-subject').value.trim(),
+            _subject: `Portfolio contact: ${document.getElementById('f-subject').value.trim()}`,
             message: document.getElementById('f-message').value.trim(),
+            _template: 'table',
+            _captcha: 'false',
           };
-          const res = await mockAxios.post('/api/contact', payload);
-          toast(res.data.message, 'success');
+          const res = await fetch('https://formsubmit.co/ajax/prashanth90807@gmail.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          const data = await res.json();
+          if (!res.ok || String(data.success) !== 'true') throw new Error(data.message || 'Failed to send. Please try again.');
+          toast("Message sent! I'll get back to you soon. 🚀", 'success');
           form.reset();
           charCount.textContent = '0';
         } catch (err) {
-          toast(err.message || 'Something went wrong. Please try again.', 'error');
+          toast('Could not send right now — please email me directly at prashanth90807@gmail.com', 'error');
         } finally {
           submitBtn.disabled = false;
           submitText.textContent = 'Send Message';
@@ -2743,6 +2847,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       renderSkills();
       renderExperience();
+      renderProjects();
       renderAchievements();
     });
   </script>
